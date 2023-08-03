@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clothes",
+  "info": {
+    "singularName": "clothe",
+    "pluralName": "clothes",
+    "displayName": "clothe",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "price": {
+      "type": "string"
+    }
+  }
+}
